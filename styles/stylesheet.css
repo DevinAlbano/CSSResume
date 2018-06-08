@@ -1,0 +1,108 @@
+/* Global Styles */
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.site {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 100%;
+}
+
+.content-wrapper {
+    padding: 1em;
+}
+
+/* Header Styles */
+
+.masthead{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 1.5em;
+    background-color: #d8b4e2;
+}
+
+.profile-picture {
+    border-radius: 20%;
+    max-width: 300px;
+    margin-right: 25px;
+}
+
+#NameTitle {
+    border-radius: 25px;
+    background-color: #55286E;
+    padding: 1.2em;
+}
+
+/* Main Styles */
+
+.main-content {
+    padding: 1.1em;
+    background-color: #bc96e6;
+}
+
+.main-content h2 {
+    background-color: #55286E;
+    padding: 1.2em;
+    border-radius: 25px;
+}
+
+.job-experience {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto;
+    background-color: #d8b4e2;
+    margin-bottom: 1.5em;
+    border-radius: 25px;
+}
+
+.employer-jobtitle {
+    grid-column: 1/2;
+}
+
+.job-responsibilities {
+    grid-column: 2/3;
+}
+
+.job-skillset {
+    grid-column: 3/4;
+}
+
+
+/* Footer Styles */
+
+.colophon {
+    padding: 1.1em;
+    background-color: #55286E;
+}
+
+.contact-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.2em;
+}
+
+
+footer a {
+    color: white;
+    background-color: #d8b4e2;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+    width: 75%;
+    padding: 1.3em 0;
+    border-radius: 25px;
+}
+
+footer a li:hover {
+    border-bottom: solid 1px white;
+}
