@@ -13,7 +13,7 @@ body {
 }
 .site {
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 4px;
     grid-template-columns: 100%;
 }
 
@@ -89,7 +89,12 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1.2em;
 }
-
+footer > h3 {
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #d8b4e2;
+}
 
 footer a {
     color: white;
