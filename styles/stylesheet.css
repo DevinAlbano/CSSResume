@@ -25,6 +25,7 @@ body {
 
 .masthead{
     display: grid;
+    grid-gap: 4px;
     grid-template-columns: 1fr 2fr;
     padding: 1.5em;
     background-color: #d8b4e2;
