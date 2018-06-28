@@ -28,7 +28,9 @@ body {
     grid-gap: 4px;
     grid-template-columns: 1fr 2fr;
     padding: 1.5em;
-    background-color: #d8b4e2;
+    background-image: url(/img/lotus-pink-nature-flowers-39315.jpeg);
+    background-size: 100%;
+    background-color: #55286E;
 }
 
 .profile-picture {
@@ -39,7 +41,7 @@ body {
 
 #NameTitle {
     border-radius: 25px;
-    background-color: #55286E;
+    background: rgba(216, 180, 226, 0.8);
     padding: 1.2em;
 }
 
