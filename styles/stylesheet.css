@@ -90,9 +90,11 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1.2em;
 }
-footer > h3 {
+.colophon > h3 {
+    color: white;
+    font-size: 1.4em;
     margin-top: 0;
-    padding: 10px;
+    padding: 1.2em;
     border-radius: 25px;
     background-color: #d8b4e2;
 }
