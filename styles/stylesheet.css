@@ -92,33 +92,31 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1.2em;
 }
-.colophon > h3 {
-    color: white;
-    font-size: 1.4em;
-    margin-top: 0;
-    padding: 1.2em;
-    border-radius: 25px;
+
+.contact-links > h3 {
     background-color: #d8b4e2;
+    grid-column: 2;
+    margin: 0 auto;
+    padding: 1.3em 2.5em;
+    border-radius: 25px;
+    border: white solid 5px;
+
 }
 
 footer a {
+    grid-row: 2;
     color: white;
     background-color: #d8b4e2;
     text-decoration: none;
     text-align: center;
-    list-style: none;
     margin: 0 auto;
-    width: 75%;
-    padding: 1.3em 0;
+    padding: 1.5em 3em;
     border-radius: 25px;
-    transition: all 1.5s ease-in 2.5;
-    -webkit-transition: all 1.5s ease-in 2.5;
-    -moz-transition: all 1.5s ease-in 2.5;
-    -ms-transition: all 1.5s ease-in 2.5;
-    -o-transition: all 1.5s ease-in 2.5;
+    transition: all 1s ease-out;
 }
 
 footer a:hover {
     border-bottom: solid 1px white;
     background-color: #55286E;
 }
+
