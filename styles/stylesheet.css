@@ -11,7 +11,12 @@ body {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-.site {
+.lotusbackground {
+    background-image: url(/img/lotus-pink-nature-flowers-39315.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.resumegrid {
     display: grid;
     grid-gap: 4px;
     grid-template-columns: 100%;
@@ -28,9 +33,8 @@ body {
     grid-gap: 4px;
     grid-template-columns: 1fr 2fr;
     padding: 1.5em;
-    background-image: url(/img/lotus-pink-nature-flowers-39315.jpeg);
     background-size: 100%;
-    background-color: #55286E;
+    background-color: rgba(85, 40, 110, 0.8);
 }
 
 .profile-picture {
@@ -49,21 +53,12 @@ body {
 
 .main-content {
     padding: 1.1em;
-    background-color: #bc96e6;
+    background-color: rgb(188, 150, 230, 0.8);
 }
 
 .main-content h2 {
     background-color: #55286E;
     padding: 1.2em;
-    border-radius: 25px;
-}
-
-.job-experience {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: auto;
-    background-color: #d8b4e2;
-    margin-bottom: 1.5em;
     border-radius: 25px;
 }
 
