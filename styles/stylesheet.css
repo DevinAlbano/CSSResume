@@ -59,14 +59,14 @@ body {
 
 .work-experience {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
+    grid-gap: 1.1em;
 }
 
-.work-experience h2 {
+.work-experience-head {
     background-color: #55286E;
     padding: 1.2em;
     border-radius: 25px;
-    grid-column: 1/3;
 }
 
 
