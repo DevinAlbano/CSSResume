@@ -56,22 +56,16 @@ body {
     background-color: rgb(188, 150, 230, 0.8);
 }
 
-.main-content h2 {
+.work-experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.work-experience h2 {
     background-color: #55286E;
     padding: 1.2em;
     border-radius: 25px;
-}
-
-.employer-jobtitle {
-    grid-column: 1/2;
-}
-
-.job-responsibilities {
-    grid-column: 2/3;
-}
-
-.job-skillset {
-    grid-column: 3/4;
+    grid-column: 1/5;
 }
 
 
@@ -79,7 +73,7 @@ body {
 
 .colophon {
     padding: 1.1em;
-    background-color: #55286E;
+    background-color: rgba(85, 40, 110, 0.8);
 }
 
 .contact-links{
