@@ -93,7 +93,7 @@ body {
     grid-gap: 1.2em;
 }
 
-.contact-links > h3 {
+.contact-links h3 {
     background-color: #d8b4e2;
     grid-column: 2;
     margin: 0 auto;
@@ -103,10 +103,11 @@ body {
 
 }
 
-footer a {
+.contact-links a {
     grid-row: 2;
     color: white;
     background-color: #d8b4e2;
+    border: white solid 5px;
     text-decoration: none;
     text-align: center;
     margin: 0 auto;
@@ -115,8 +116,7 @@ footer a {
     transition: all 1s ease-out;
 }
 
-footer a:hover {
-    border-bottom: solid 1px white;
+.contact-links a:hover {
     background-color: #55286E;
 }
 
