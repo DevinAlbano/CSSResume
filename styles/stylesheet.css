@@ -15,6 +15,7 @@ body {
     background-image: url(/img/lotus-pink-nature-flowers-39315.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
 }
 .resumegrid {
     display: grid;
