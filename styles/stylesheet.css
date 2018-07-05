@@ -72,15 +72,6 @@ body {
 
 
 /* Footer Styles */
-@media (max-width: 375px) { 
-    
-    .contact-links{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 1.2em;
-    }
-}
-
 
 .colophon {
     padding: 1.1em;
@@ -89,12 +80,13 @@ body {
 
 
 .contact-links h3 {
-    background-color: #d8b4e2;
+    width: 200px;
     grid-column: 2;
+    background-color: #d8b4e2;
+    border: white solid 5px;
     padding: 1.3em 2.5em;
     border-radius: 25px;
-    border: white solid 5px;
-
+    margin: 0 auto;
 }
 
 .contact-links a {
@@ -104,6 +96,7 @@ body {
     border: white solid 5px;
     text-decoration: none;
     text-align: center;
+    font-size: 1.20rem;
     margin: 1.2em;
     padding: 1.5em 3em;
     border-radius: 25px;
@@ -114,8 +107,10 @@ body {
     background-color: #55286E;
 }
 
+/* Media Query for mid-size viewports */
+/* ---------------------------------- */
 @media only screen and (min-width: 600px) {
-    
+
     .contact-links{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
