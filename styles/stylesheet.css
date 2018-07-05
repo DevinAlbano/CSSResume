@@ -2,6 +2,7 @@
 html {
     margin: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 body {
@@ -71,6 +72,15 @@ body {
 
 
 /* Footer Styles */
+@media (max-width: 375px) { 
+    
+    .contact-links{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1.2em;
+    }
+}
+
 
 .colophon {
     padding: 1.1em;
