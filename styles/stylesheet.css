@@ -78,10 +78,13 @@ body {
     background-color: rgba(85, 40, 110, 0.8);
 }
 
+.contact-links {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 .contact-links h3 {
-    width: 200px;
-    grid-column: 2;
+    text-align: center;
     background-color: #d8b4e2;
     border: white solid 5px;
     padding: 1.3em 2.5em;
