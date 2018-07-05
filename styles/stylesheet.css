@@ -2,7 +2,7 @@
 html {
     margin: 0;
     box-sizing: border-box;
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 body {
@@ -113,7 +113,6 @@ body {
 /* Media Query for mid-size viewports */
 /* ---------------------------------- */
 @media only screen and (min-width: 600px) {
-
     .contact-links{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -127,5 +126,9 @@ body {
 
     .contact-links h3 {
         margin: 0 auto;
+
+    }
+    .contact-links h3 {
+        grid-column: 2/3;
     }
 }
