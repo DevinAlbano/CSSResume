@@ -41,7 +41,7 @@ body {
 .profile-picture {
     margin: 0 auto;
     border-radius: 20%;
-    max-width: 100%;
+    max-width: 45%;
     border: white solid 4px;
 }
 
@@ -122,6 +122,10 @@ body {
         grid-template-columns: 1fr 2fr;
     }
 
+    .profile-picture {
+        margin: 0 auto;
+        max-width: 100%;
+    }
     
     /* footer */
     /* ---------------------------------- */
