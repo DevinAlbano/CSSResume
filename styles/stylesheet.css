@@ -30,23 +30,22 @@ body {
 
 /* Header Styles */
 
-.masthead{
+.masthead {
     display: grid;
-    grid-gap: 4px;
-    grid-template-columns: 1fr;
     padding: 1.5em;
     background-size: 100%;
     background-color: rgba(85, 40, 110, 0.8);
 }
 
 .profile-picture {
+    margin: 0 auto;
     border-radius: 20%;
-    max-width: 300px;
-    margin-right: 25px;
+    max-width: 50%;
 }
 
 #NameTitle {
     border-radius: 25px;
+    border: white solid 4px;
     background: rgba(216, 180, 226, 0.8);
     padding: 1.2em;
 }
@@ -66,6 +65,7 @@ body {
 
 .work-experience-head {
     background-color: #55286E;
+    border: white solid 4px;
     padding: 1.2em;
     border-radius: 25px;
 }
@@ -86,7 +86,7 @@ body {
 .contact-links h3 {
     text-align: center;
     background-color: #d8b4e2;
-    border: white solid 5px;
+    border: white solid 4px;
     padding: 1.3em 2.5em;
     border-radius: 25px;
     margin: 0 auto;
@@ -96,7 +96,7 @@ body {
     display: block;
     color: white;
     background-color: #d8b4e2;
-    border: white solid 5px;
+    border: white solid 4px;
     text-decoration: none;
     text-align: center;
     font-size: 1.20rem;
@@ -113,6 +113,16 @@ body {
 /* Media Query for mid-size viewports */
 /* ---------------------------------- */
 @media only screen and (min-width: 600px) {
+    /* header */
+    /* ---------------------------------- */
+
+    .masthead {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    
+    /* footer */
+    /* ---------------------------------- */
     .contact-links{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
