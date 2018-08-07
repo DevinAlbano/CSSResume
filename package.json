@@ -1,0 +1,24 @@
+{
+  "name": "cssresume",
+  "version": "1.0.0",
+  "description": "my resume playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevinAlbano/CSSResume.git"
+  },
+  "author": "Devin Albano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevinAlbano/CSSResume/issues"
+  },
+  "homepage": "https://github.com/DevinAlbano/CSSResume#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-cli": "^1.2.0",
+    "grunt-sass": "^3.0.1"
+  }
+}
